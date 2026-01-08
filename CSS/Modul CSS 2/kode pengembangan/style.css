@@ -1,0 +1,33 @@
+.box {
+    border: 3px solid rgb(0, 255, 0);
+    text-align: center;
+    padding: 10px;
+    margin: 30%;
+    margin-top: 50px;
+}
+
+.transparan {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 30%;
+    margin-top: -300px;
+}
+
+.palet {
+    background-color: hsl(300, 80%, 70%);
+    padding: 10px;
+    text-align: center;
+    margin: 30%;
+    margin-top: -300px;
+}
+
+.gradien  {
+    background: linear-gradient(to right, #ff0000, #0000ff);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 30%;
+    margin-top: -300px;
+}

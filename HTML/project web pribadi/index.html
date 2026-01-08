@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header.navbar-container{
+            width: 100%;
+            padding-block: 16px;
+            margin-inline: auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        header.navbar-container .nav-list ul{
+            padding-left: 0;
+            display: flex;
+            justify-content: center;
+            gap: 32px 16px;
+        }
+
+        header.navbar-container .nav-list li{
+            list-style-type: none;
+        }
+
+        header.navbar-container .nav-list li a{
+            padding: 8px 24px;
+            border-radius: 999px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            color: black;
+            transition: all 0.2s ease-in-out;
+        }
+
+        header.navbar-container .nav-list li:hover a{
+            background-color: #425c77;
+            color: white;
+        }
+
+        .content .fotosaya img{
+            width: 300px;
+            border-radius: 100%;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 10);
+            background-color: white;
+        }
+
+        .content{
+            margin-top: 70px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .content .content-description{
+            margin-block: auto;
+            font-weight: bold;
+            gap: 2px;
+            font-size: 18px;
+        }
+
+        button{
+            margin-top: 10px;
+            padding: 10px 30px;
+            border: 3px solid transparent;
+            border-radius: 999px;
+            background-color: #425c77;
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+            transition: all 0.15s ease-in;
+        }
+
+        button:hover{
+            border: 2px solid white;
+            background-color: transparent;
+            color: #425c77;
+        }
+
+        footer{
+            margin-top: 30px;
+            padding: 20px;
+            color: white;
+            background-color: #00a2c6;
+            text-align: center;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="navbar-container">
+        <div class="judul">
+             <h1>Portofolio</h1>
+        </div>
+        <nav class="nav-list">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Download CV</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <div class="content">
+                <div class="content-description">
+                    <p>Hello, It's Me</p>
+                    <h1>GADING AZRIEL PRASETYO</h1>
+                    <p>
+                        Saya seorang pelajar dari SMK N 1 Kandeman 
+                    </p>
+                    <p>
+                        dari jurusan Pengembangan Perangkat Lunak & GIM
+                    </p>
+                    <a href="about.html">
+                        <button type="button">More About me</button>
+                    </a>
+                    
+                </div>
+                <div class="fotosaya">
+                    <img src="image/gading.jpeg" alt="Foto Saya">
+                </div>
+            </div>
+         </article>
+    </main>
+
+    <footer>
+        <p>Copyrigth &copy; 2026 GADING AZRIEL PRASETYO.</p>
+    </footer>
+</body>
+</html>

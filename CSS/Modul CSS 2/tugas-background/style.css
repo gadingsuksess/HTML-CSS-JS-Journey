@@ -1,0 +1,31 @@
+*{
+    box-sizing: content-box;
+}
+
+body{
+    background: url(https://images.pexels.com/photos/1590549/pexels-photo-1590549.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.biodata{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    margin-inline: auto;
+    border: 1px solid;
+    box-shadow:  0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+

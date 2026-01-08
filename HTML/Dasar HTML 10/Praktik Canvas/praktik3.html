@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100%;
+            background: #0e1a2b;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+     <canvas id="myCanvas" width="400" height="400" style="border:4px solid #fff; 
+     display: block; margin: auto; margin-top: 150px; background: navy;"></canvas>
+        <script>
+        const c = document.getElementById("myCanvas");
+        const ctx = c.getContext("2d");
+
+        // Menggambar persegi
+        ctx.fillStyle = "lightblue";
+        ctx.fillRect(50, 50, 100, 100);
+
+        // Menggambar lingkaran
+        ctx.beginPath();
+        ctx.arc(300, 100, 50, 0 ,2 * Math.PI);
+        ctx.fillStyle = "lightgreen";
+        ctx.fill();
+       
+        // Menggambar segitiga
+        ctx.beginPath();
+        ctx.moveTo(200, 150);
+        ctx.lineTo(150, 250);
+        ctx.lineTo(250, 250);
+        ctx.closePath();
+        ctx.fillStyle = "pink";
+        ctx.fill();
+
+        // Menggambar garis1
+        ctx.moveTo(0, 270);
+        ctx.lineTo(400, 270);
+        
+
+        // Menggambar garis2
+        ctx.moveTo(0, 300);
+        ctx.lineTo(400, 300);
+        ctx.strokeStyle = "yellow";
+        ctx.lineWidth = 4;
+        ctx.stroke();
+
+        // Menambahkan teks
+        ctx.font = "30px Arial";
+        ctx.fillStyle = "white";
+        ctx.fillText("DEKORASI", 120, 380);
+     </script>
+</body>
+</html>

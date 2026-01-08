@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengambar Bentuk Dasar</title>
+</head>
+<body>
+    <h1 style="color: teal; text-align: center;">MENGAMBAR BENTUK DASAR</h1>
+    <br>
+    <h2 style="text-align: center;">PERSEGI</h2>
+    <div style="text-align: center;">
+    <canvas id="persegi" width="300" height="200" style="border: 1px solid black;"></canvas>
+    </div>
+    <script>
+        const c = document.getElementById("persegi");
+        const ctx = c.getContext("2d");
+        ctx.fillStyle = "lightblue";
+        ctx.fillRect(75, 50, 150, 100);
+    </script>
+    <br>
+    <h2 style="text-align: center;">LINGKARAN</h2> 
+    <div style="text-align: center;">
+    <canvas id="lingkaran" width="300" height="200" style="border: 1px solid black;"></canvas>
+    </div>
+    <script>
+        const c2 = document.getElementById("lingkaran");
+        const ctx2 = c2.getContext("2d");
+        ctx2.beginPath();
+        ctx2.arc(150, 100, 50, 0 ,2 * Math.PI);
+        ctx2.stroke();
+    </script>
+    <br>
+    <h2 style="text-align: center;">GARIS</h2>
+    <div style="text-align: center;">
+    <canvas id="garis" width="300" height="200" style="border: 1px solid black;"></canvas>
+    </div>
+    <script>
+        const c3 = document.getElementById("garis");
+        const ctx3 = c3.getContext("2d");
+        ctx3.moveTo(0, 100);
+        ctx3.lineTo(300, 100);
+        ctx3.stroke();
+    </script>
+</body>
+</html>

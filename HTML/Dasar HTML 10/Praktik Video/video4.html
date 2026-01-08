@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video id="myvid" width="400" controls>
+        <source src="cinematic.mp4" type="video/mp4">
+    </video>
+
+    <button onclick="playvideo()">Play</button>
+    <button onclick="pausevideo()">Pause</button>
+
+    <script>
+        function playvideo (){
+            document.getElementById("myvid").play();
+        }
+        function pausevideo (){
+            document.getElementById("myvid").pause();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body {
+    background-image: url("smk 1 kandemann.jpg");
+    background-size :cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1000px;
+        }
+.profilsekolah{
+    margin-left: 40%;
+    margin-top: 120px;
+
+}
+.profilsekolah ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+.profilsekolah ul li a {
+    display: block;
+    padding-left: 10px;
+    background-color: blue;
+    color: white;
+    border-bottom: 2px solid white;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.profilsekolah ul li a:hover {
+    background-color: yellow;
+    color: white;
+}

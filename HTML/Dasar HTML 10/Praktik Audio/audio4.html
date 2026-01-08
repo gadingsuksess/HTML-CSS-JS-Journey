@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <audio id="myaudio" src="lagu.mp3" controls></audio>
+    <br>
+    <button onclick="playaudio()">Play</button>
+    <button onclick="pauseaudio()">Pause</button>
+    <button onclick="stopaudio()">Stop</button>
+
+    <script>
+        function playaudio(){
+            document.getElementById("myaudio").play();
+        }
+        function pauseaudio(){
+            document.getElementById("myaudio").pause();
+        }
+        function stopaudio(){
+            const audio = document.getElementById("myaudio").pause();
+            audio.currentTime = 0;
+        }
+
+    </script>
+</body>
+</html>

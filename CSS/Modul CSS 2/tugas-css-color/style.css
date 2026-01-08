@@ -1,0 +1,68 @@
+*{
+    box-sizing: content-box;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: auto;
+    background-color: #FAFAFA;
+    max-width: 600px;
+    margin-inline: auto;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    border: 2px solid;
+    padding-bottom: 20px;
+}
+
+.keterangan{
+   display: inline-block;
+   font-weight: bold;
+}
+
+.nama-warna{
+    border: 3px solid blue;
+    background-color: blue;
+    padding: 100px;
+}
+
+.RGB{
+    border: 3px solid rgb(0, 255, 255);
+    background-color:  rgb(0, 255, 255);
+    padding: 100px;
+}
+
+.RGBA{
+    border: 3px solid rgba(0, 128, 0, 1);
+    background-color: rgba(0, 128, 0, 1);
+    padding: 100px;
+}
+
+.HSL{
+    border: 3px solid hsl(300, 100%, 50%);
+    background-color: hsl(300, 100%, 50%);
+    padding: 100px;
+}
+
+.HSLA{
+    border: 3px solid hsla(60, 100%, 50%, 0.7);
+    background-color: hsla(60, 100%, 50%, 0.7);
+    padding: 100px;
+
+}
+
+.HEX{
+    border: 3px solid #D2691E;
+    background-color: #D2691E;
+    padding: 100px;
+
+}

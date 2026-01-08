@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pendaftaran siswa</title>
+</head>
+
+<body>
+  <p style="color: teal; font-size: 20px; text-align: center;">FORM PENDAFTARAN SISWA </p>
+  <form action="">
+    <fieldset>
+      <legend>Pendaftaran Siswa</legend>
+      NISN (jika ada) : <br>
+      <input type="text" name="txtnisn" size="25" placeholder="NISN" /><br><br>
+      Nama Lengkap : <br>
+      <input type="text" name="txtnama" size="25" placeholder="Nama sesuai akta" /><br><br>
+      Jenis Kelamin : <br>
+      <select name="jk">
+        <option value="0">Laki - Laki</option>
+        <option value="1">Perempuan</option>
+      </select><br><br>
+      Tempat lahir : <br>
+      <input type="text" name="txttmplahir" size="25" placeholder="Kota/Kabupaten" /> <br><br>
+      Tanggal lahir : <br>
+      <input type="date" name="txtdate" size="25"><br><br>
+    </fieldset><br><br>
+
+    <fieldset>
+      <legend>Alamat</legend>
+      Alamat Lengkap : <br>
+      <textarea name="txtalamat" id="" cols="25" rows="5" placeholder="Jalan, RT/RW, Desa/Kelurahan, Kecamatan, Kabupaten/Kota"></textarea><br><br>
+      Kode Pos : <br>
+      <input type="text" name="txtpos" size="25" placeholder="5 digit" /><br><br>
+    </fieldset><br><br>
+
+    <fieldset>
+      <legend>Kontak</legend>
+      Email : <br>
+      <input type="email" name="txtemail" size="25" placeholder="contoh@domain.com" /><br><br>
+      Nomor Telepon/HP : <br>
+      <input type="tel" name="txttelepon" size="25" placeholder="+62 856-4249-5212" /><br><br>
+    </fieldset><br><br>
+
+    <fieldset>
+      <legend>Pendidikan sebelumnya</legend>
+      Nama Sekolah/Asal : <br>
+      <input type="text" name="txtsekolah" size="25" placeholder="Sekolah negeri/swasta" /><br><br>
+      Tahun Lulus : <br>
+      <input type="number" name="txtlulus" size="25" placeholder="2025" /> <br><br>
+    </fieldset><br><br>
+
+    <fieldset>
+      <legend>Data Wali/Orang tua</legend>
+      Nama Wali/Orang tua : <br>
+      <input type="text" name="txttua" size="25" placeholder="Nama Lengkap" /><br><br>
+      Pekerjaan Wali : <br>
+      <input type="text" name="txtkerja" size="25" placeholder="Contoh : PNS,Petani" /><br><br>
+      Nomor Telepon Wali/Orang tua : <br>
+      <input type="tel" name="txttel" size="25" placeholder="+62 889-0923-3378" /><br><br>
+    </fieldset><br><br>
+
+    <fieldset>
+      <legend>Lampiran</legend>
+      Foto 3x4 (opsional) : <br>
+      <input type="file" name="txtfoto" size="25" /><br><br>
+      Scan AKTA Kelahiran/Ijazah (opsional) : <br>
+      <input type="file" name="txtakta" size="25" /><br><br>
+    </fieldset> <br><br>
+
+    <fieldset>
+      <legend>Pernyataan</legend>
+      <input type="checkbox" name="txtcentang" /> Saya menyatakan bahwa data yang diberikan adalah benar.
+    </fieldset>
+    <button type="submit">Kirim Pendaftaran</button>
+    <button type="reset">Reset Form</button>
+  </form>
+</body>
+
+</html>

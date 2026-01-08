@@ -1,0 +1,166 @@
+*{
+     box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-inline: auto;
+}
+
+.kotak-pertama{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kiri-kotak1{
+    width: 150px;
+    height: 150px;
+    border: 5px solid red;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.kanan-kotak1{
+    width: 150px;
+    height: 150px;
+    border: 5px solid red;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.kotak-kedua{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.kiri-kotak2{
+    width: 150px;
+    height: 150px;
+    border: 5px solid yellow;
+    border-radius: 20px;
+    background-color: yellow;
+}
+
+.kanan-kotak2{
+    width: 150px;
+    height: 150px;
+    border: 5px solid yellow;
+    border-radius: 20px;
+    background-color: yellow;
+}
+
+.kotak-ketiga{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.kiri-kotak3{
+    width: 150px;
+    height: 150px;
+    border: 5px solid green;
+    background-color: green;
+}
+
+.kanan-kotak3{
+    width: 150px;
+    height: 150px;
+    border: 5px solid green;
+    background-color: green;
+}
+
+.kotak-keempat{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    align-items: center;
+}
+
+.kotak-4{
+    border: 1px dashed green;
+    margin: 10px;
+    padding: 20px 50px;
+}
+
+.kotak-kelima{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    align-items: center;
+}
+
+.kotak-5{
+    border: 1px dashed yellow;
+    margin: 10px;
+    padding: 20px 50px;
+}
+
+.kotak-keenam{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.kotak-6{
+    border: 1px dashed red;
+    margin: 10px;
+    padding: 20px 50px;
+}
+
+.kotak-ketujuh{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.kotak-7{
+    border: 1px dashed black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.kotak-kedelapan{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.kotak-8{
+    border: 1px dotted black;
+    width: 150px;
+    height: 150px;
+}
+
+.kotak-kesembilan{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    align-items: center;
+}
+    
+.kotak-9{
+    border: 1px double black;
+    width: 50px;
+    height: 150px;
+}
