@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header h1{
+    width: 100%;
+    max-width: 1200px;
+    padding-block: 16px;        
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F0F8FF;
+    border: 1px solid blue; /* px */
+    border-radius: 30px; /* px */
+    flex-wrap: wrap;
+}
+
+nav ul{
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 32px 16px; /* px */
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    padding: 8px 24px; /* px */        
+    border-radius: 999px; /* px */
+    text-decoration: none;
+    font-size: 17px; /* px */          
+    font-weight: 500;
+    color: black;
+    background-color: teal;
+}
+
+nav ul li a:hover{
+    background-color: aquamarine;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px; /* px */
+    margin-bottom: 50px; /* px */
+    gap: 50px; /* px */
+}
+
+.content #kotak-merah{ /* px */
+   margin: auto;
+   padding: 40px;
+   width: 200px;
+   background-color: red;
+   color: black;
+   text-align: center;
+   font-size: 50px;
+}
+
+.content #kotak-biru{ /* % */
+    margin: auto;
+    padding: 10%;
+    width: 50%;
+    background-color: blue;
+    color: black;
+    text-align: center;
+    font-size: 200%;
+}
+
+.content #kotak-kuning{ /* em */
+    margin: auto;
+    padding: 5em;
+    width: 20em;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    font-size: 1em;
+}
+
+.content #kotak-hijau{ /* rem */
+    margin: auto;
+    padding: 10rem;
+    width: 15rem;
+    background-color: green;
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.content #kotak-pink{ /* vw/vh */
+    margin: auto;
+    padding: 5vw;
+    width: 20vw;
+    background-color: pink;
+    color: black;
+    text-align: center;
+    font-size: 1vw;
+}
+
+footer{
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
+}

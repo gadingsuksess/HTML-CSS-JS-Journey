@@ -1,0 +1,36 @@
+.box{
+    width: 50%;
+    height: 200px;
+    margin: 20px;
+    background-color: lightblue;
+}
+
+.box-cm{
+    font-size: 2cm;
+    margin: 20px;
+    background-color: lightgreen;
+}
+
+.box-mm{
+    font-size: 20mm;
+    margin: 20px;
+    background-color: lightcoral;
+}
+
+.box-in{
+    font-size: 1in;
+    margin: 20px;
+    background-color: lightgoldenrodyellow;
+}
+
+.box-pc{
+    font-size: 12pc;
+    margin: 20px;
+    background-color: lightpink;
+}
+
+.box-pt{
+    font-size: 24pt;
+    margin: 20px;
+    background-color: lightgray;
+}

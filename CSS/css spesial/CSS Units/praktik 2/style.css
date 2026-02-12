@@ -1,0 +1,34 @@
+.container{
+    width: 50%;
+    height: 100px;
+    background-color: lightcoral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.text-blok{
+    font-size: 2em;
+    background-color: lightseagreen;
+    color: white;
+    width: max-content;
+    padding: 10px;
+}
+
+.html{
+    font-size: 5vw;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    width: max-content;
+    padding: 10px;
+}
+
+.icom{
+    font-size: 10vmin;
+    background-color: lightpink;
+    color: black;
+    width: max-content;
+    padding: 10px;
+}
