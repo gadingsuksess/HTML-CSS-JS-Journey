@@ -1,0 +1,40 @@
+/* Selektor Universal */
+* {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Selektor Tag */
+div {
+    width: 200px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Selektor Class */
+.div {
+    width: 400px;
+    background-color: teal;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+/* Selektor Id */
+#div {
+    width: 50px;
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 40px;
+}
