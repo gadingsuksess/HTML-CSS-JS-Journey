@@ -1,0 +1,13 @@
+.container {
+    width: 50%;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.text-em {
+    font-size: 2em;
+}
+
+.text-rem {
+    font-size: 2rem;
+}
