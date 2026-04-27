@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS animation</title>
+    <style>
+        div.box {
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: relative;
+            animation: gerak 25 ease;
+        }
+
+        @keyframes gerak {
+             from {
+                left: 20px;
+            }
+
+            30% {
+                left: 800px;
+            }
+
+            to {
+                left: 800px;
+            }
+        } 
+    </style>
+</head>
+<body>
+    <h2>Contoh CSS Animation</h2>
+    <div class="box">Animasi</div>
+</body>
+</html>

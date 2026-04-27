@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    color: white;
+    line-height: 150px;
+    margin: auto;
+
+    /* Animation */
+    animation-name: gerak;
+    animation-duration: 3s;
+    animation-delay: 0.55s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+/* Keyframes */
+@keyframes gerak {
+    0% {
+        transform: translateX(0);
+        background-color: green;
+    }
+
+    50% {
+        transform: translateX(200);
+        background-color: orange;
+    }
+
+    100% {
+        transform: translateX(0);
+        background-color: blue;
+    }
+}
