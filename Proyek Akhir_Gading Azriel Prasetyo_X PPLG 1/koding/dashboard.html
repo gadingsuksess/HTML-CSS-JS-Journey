@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Daily Plan</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="styles/dashboard.css" />
+    <!-- Google font api -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon api hugeicons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css"
+    />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <aside>
+      <nav>
+        <!-- Logo -->
+        <div class="logo">
+          <img src="img/Logo_Daily_Plan.png" alt="Logo Daily Plan" />
+          <h1>Daily Plan</h1>
+        </div>
+        <!-- Menu -->
+        <ul>
+          <li>
+            <a href="dashboard.html"
+              ><i class="hgi hgi-stroke hgi-rounded hgi-dashboard-square-02"></i
+              >Dashboard</a
+            >
+          </li>
+          <li>
+            <a href="note-page.html"
+              ><i class="hgi hgi-stroke hgi-rounded hgi-note-01"></i>Note</a
+            >
+          </li>
+          <li>
+            <a href="checklist-page.html"
+              ><i class="hgi hgi-stroke hgi-rounded hgi-check-list"></i
+              >CheckList</a
+            >
+          </li>
+          <li class="special">
+            <a href="landing-page.html"
+              ><i class="hgi hgi-stroke hgi-rounded hgi-login-square-01"></i
+              >Logout</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main -->
+    <main>
+      <!-- Header -->
+      <header>
+        <div class="container-header">
+          <!-- Navigasi -->
+          <nav>
+            <ul>
+              <li><a href="dashboard.html">Dashboard</a></li>
+              <li>
+                <a href="https://calendar.google.com/calendar/u/0/r"
+                  >Calendar</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <!-- Profil Pengguna -->
+          <div class="header-profile">
+            <!-- Dark mode -->
+            <button id="darkToggle">🌙</button>
+            <!-- User -->
+            <div class="akun-pengguna">
+              <i class="hgi hgi-stroke hgi-rounded hgi-user"></i>
+              <span>Pak Mukti</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section>
+        <div class="welcome">
+          <h2 id="email">User!</h2>
+          <h2>Selamat datang di Daily Plan</h2>
+          <p>
+            Tempat terbaik untuk mengatur hari-harimu dengan lebih terarah dan
+            produktif.
+          </p>
+          <p>
+            Di sini, kamu bisa merencanakan aktivitas, menetapkan tujuan, dan
+            melacak progres harianmu dengan mudah. Setiap langkah kecil yang
+            kamu catat hari ini adalah bagian dari pencapaian besar di masa
+            depan.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="features">
+          <!-- Card note -->
+          <article class="card">
+            <i class="hgi hgi-stroke hgi-rounded hgi-note-01"></i>
+            <h3>Note Mode</h3>
+            <p>untuk mencatat ide, rencana, atau hal penting secara bebas</p>
+            <a href="note-page.html">Mulai Menulis → </a>
+          </article>
+
+          <!-- Card checklist -->
+          <article class="card">
+            <i class="hgi hgi-stroke hgi-rounded hgi-check-list"></i>
+            <h3>CheckList Mode</h3>
+            <p>untuk membuat daftar tugas dan menandai setiap pencapaianmu</p>
+            <a href="checklist-page.html">Atur Tugas → </a>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="motivasi">
+          <p>
+            Mulailah harimu dengan rencana yang jelas, tetap konsisten, dan
+            jadikan setiap hari lebih bermakna.
+          </p>
+          <h2>Rencanakan. Jalankan. Capai.</h2>
+        </div>
+      </section>
+
+    <!-- Footer -->
+    <footer>
+      <!-- Footer dengan informasi kontak dan tautan sosial media -->
+      <div class="footer">
+        <p>&copy; 2026 Daily Plan. All rights reserved.</p>
+        <div class="social-media">
+          <!-- Tautan sosial media -->
+          <a href="#"><i class="hgi hgi-stroke hgi-rounded hgi-mail-01"></i></a>
+          <a href="#"><i class="hgi hgi-stroke hgi-rounded hgi-youtube"></i></a>
+          <a href="#"
+            ><i class="hgi hgi-stroke hgi-rounded hgi-facebook-01"></i
+          ></a>
+          <a href="#"
+            ><i class="hgi hgi-stroke hgi-rounded hgi-new-twitter"></i
+          ></a>
+          <a href="#"
+            ><i class="hgi hgi-stroke hgi-rounded hgi-linkedin-01"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    </main>
+  </body>
+  <script src="script/dashboard.js"></script>
+</html>

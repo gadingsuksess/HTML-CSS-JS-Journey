@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Daily Plan</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="styles/login.css" />
+    <!-- Google font api -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon api hugeicons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css"
+    />
+</head>
+<body>
+    <!-- Login Form -->
+    <div class="container">
+        <img src="img/Logo_Daily_Plan.png" alt="Logo Daily Plan" class="logo">
+        <!-- Judul -->
+        <h1>Daily Plan</h1>
+        <!-- Deskripsi -->
+        <p class="desc">Enter your email and password to access the Daily Plan</p>
+        <div class="input-login">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email">
+        </div>
+        <!--  -->
+        <form onsubmit="login(event)">
+        <!-- Input Password -->
+            <div class="input-login">
+                <div class="forgot-password">
+                    <label for="password">Password</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter your password"
+                    autocomplete="current-password"
+                    required
+                >
+            </div>
+            <!-- Tombol Login -->
+            <div class="input-button">
+                <button class="login-btn" type="submit">Login</button>
+            </div>
+        </form>
+
+        <!-- Link Registrasi -->
+        <p class="regis">Don't have an account?
+            <a href="regis.html">Sign Up</a>
+        </p>
+    </div>
+    <script src="script/login.js"></script>
+</body>
+</html>
