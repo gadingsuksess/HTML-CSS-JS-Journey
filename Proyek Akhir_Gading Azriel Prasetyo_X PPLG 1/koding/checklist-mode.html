@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!-- style css -->
+    <link rel="stylesheet" href="styles/checklist-mode.css" />
+    <!-- Google font api -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon api hugeicons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css"
+    />
+</head>
+<body>
+      <!-- Sidebar -->
+    <aside>
+      <nav>
+        <div class="logo">
+            <!-- Logo -->
+            <img src="img/Logo_Daily_Plan.png" alt="Logo Daily Plan" />
+            <h1>Daily Plan</h1>
+        </div>
+        <!-- Menu -->
+        <ul>
+          <li>
+            <a href="dashboard.html"><i class="hgi hgi-stroke hgi-rounded hgi-dashboard-square-02"></i>Dashboard</a>
+          </li>
+          <li>
+            <a href="note-page.html"><i class="hgi hgi-stroke hgi-rounded hgi-note-01"></i>Note</a>
+          </li>
+          <li>
+            <a href="checklist-page.html"><i class="hgi hgi-stroke hgi-rounded hgi-check-list"></i>CheckList</a>
+          </li>
+          <li class="special">
+            <a href="index.html"><i class="hgi hgi-stroke hgi-rounded hgi-login-square-01"></i>Logout</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- main -->
+    <main>
+      <!-- Header -->
+      <header>
+        <div class="container-header">
+            <div class="icon">
+                <!-- Btn kembali -->
+                <button>
+                    <a href="checklist-page.html"><i class="hgi hgi-stroke hgi-rounded hgi-login-circle-02"></i></a>
+                </button>
+            </div>
+            <!-- Profile -->
+           <div class="header-profile">
+            <div class="akun-pengguna">
+                 <i class="hgi hgi-stroke hgi-rounded hgi-user"></i>
+                <span>Pak Mukti</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section>
+        <div class="container-section">
+            <div class="container-left">
+                <h2>CheckList Mode</h2>
+                <!-- Tanggal -->
+                <div class="tanggal">
+                    <i class="hgi hgi-stroke hgi-rounded hgi-calendar-03"></i>
+                    <p id="tanggal">1 Januari 2026</p>
+                </div>
+            </div>
+            <!-- Tombol delete all dan tambah item -->
+            <div class="container-rigth">
+                <button class="btn-deleteall">Delete all <i class="hgi hgi-stroke hgi-rounded hgi-delete-02"></i></i></button>
+                <button class="btn-additem"><i class="hgi hgi-stroke hgi-rounded hgi-plus-sign"></i></button>
+            </div>
+            </div>  
+        </div>
+
+        <!-- Wadah untuk item checklist -->
+        <div id="wadah">
+
+        </div>
+      </section>
+
+</body>
+<script src="script/checklist-mode.js"></script>
+</html>
