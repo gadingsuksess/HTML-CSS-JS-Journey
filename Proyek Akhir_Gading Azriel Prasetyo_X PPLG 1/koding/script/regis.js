@@ -1,6 +1,6 @@
 // Function register
 function tambahuser(event) {
-  // Mencegah form reload otomatis
+  // Mencegah form reload otomatis 
   event.preventDefault();
   // Mengambil value input
   let inname = document.getElementById("name").value.trim();

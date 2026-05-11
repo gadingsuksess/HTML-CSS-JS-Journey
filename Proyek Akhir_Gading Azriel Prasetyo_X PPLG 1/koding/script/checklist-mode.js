@@ -65,7 +65,10 @@ function buatChecklist() {
   const deskripsi = prompt("Masukkan deskripsi checklist (misal: Olahraga):");
 
   // validasi deskripsi kosong
-  if (!deskripsi) return;
+  if (!deskripsi) {
+    alert("Deskripsi tidak boleh kosong!");
+    return;
+  }
 
   // maksimal 50 karakter
   if (deskripsi.length > 50) {
@@ -173,15 +176,36 @@ function renderChecklist() {
 
     // event edit
     editBtn.addEventListener("click", () => {
-      const waktuBaru = prompt("Masukkan waktu baru:", itemData.waktu);
+      let waktuBaru;
+      // Loop untuk validasi waktu (Hanya angka/titik)
+      while (true) {
+        waktuBaru = prompt("Masukkan waktu baru:", itemData.waktu);
+
+        if (waktuBaru === null) return;
+
+        if (waktuBaru !== "" && !isNaN(waktuBaru.replace(":", "."))) {
+          break;
+        }
+
+        alert("Waktu harus berupa angka! Silakan coba lagi.");
+      }
 
       const deskripsiBaru = prompt(
         "Masukkan deskripsi baru:",
         itemData.deskripsi,
       );
 
-      // validasi
-      if (!waktuBaru || !deskripsiBaru) return;
+      // validasi 
+      if (!deskripsiBaru) {
+        alert("Deskripsi tidak boleh kosong!");
+        return;
+      }
+
+      // maksimal 50 karakter
+      if (deskripsiBaru.length > 50) {
+        alert("Deskripsi terlalu panjang! Maksimal 50 karakter.");
+        return;
+      }
 
       const checklist = getChecklist();
 
